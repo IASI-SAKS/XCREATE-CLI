@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<Request xmlns="urn:oasis:names:tc:xacml:2.0:context:schema:os"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="urn:oasis:names:tc:xacml:2.0:context:schema:os access_control-xacml-2.0-context-schema-os.xsd">
+<Subject SubjectCategory="">
+<Attribute AttributeId="" DataType="" Issuer="">
+<AttributeValue></AttributeValue>
+</Attribute>
+</Subject><Subject SubjectCategory="">
+<Attribute AttributeId="" DataType="" Issuer="">
+<AttributeValue></AttributeValue>
+</Attribute>
+</Subject><Subject SubjectCategory="">
+<Attribute AttributeId="" DataType="" Issuer="">
+<AttributeValue></AttributeValue>
+</Attribute>
+</Subject>
+<Resource>
+<Attribute AttributeId="" DataType="" Issuer="">
+<AttributeValue></AttributeValue>
+</Attribute>
+</Resource>
+<Resource>
+<Attribute AttributeId="" DataType="" Issuer="">
+<AttributeValue></AttributeValue>
+</Attribute>
+</Resource>
+<Resource>
+<Attribute AttributeId="" DataType="" Issuer="">
+<AttributeValue></AttributeValue>
+</Attribute>
+</Resource>
+<Action>
+<Attribute AttributeId="" DataType="" Issuer="">
+<AttributeValue></AttributeValue>
+</Attribute>
+<Attribute AttributeId="" DataType="" Issuer="">
+<AttributeValue></AttributeValue>
+</Attribute>
+<Attribute AttributeId="" DataType="" Issuer="">
+<AttributeValue></AttributeValue>
+</Attribute>
+</Action>
+<Environment>
+<Attribute AttributeId="" DataType="" Issuer="">
+<AttributeValue></AttributeValue>
+</Attribute>
+</Environment>
+</Request>
