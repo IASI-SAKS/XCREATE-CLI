@@ -5,7 +5,7 @@ This repository uses X-CREATE version 1.2 which is shipped with the JAR included
 The [POM](pom.xml) explicitly links to this library.
 
 For more information about X-CREATE see at:
- * [X-CREATE Official Page](labsedc.isti.cnr.it/tools/xcreate) at [LabSEDC ISTI-CNR](http://labsedc.isti.cnr.it)
+ * [X-CREATE Official Page](http://labsedc.isti.cnr.it/tools/xcreate) at [LabSEDC ISTI-CNR](http://labsedc.isti.cnr.it)
  * [Said Daoudagh's Space](https://github.com/saiddao/X-CREATE) on GitHub
 
 ## CONFIGURATION
