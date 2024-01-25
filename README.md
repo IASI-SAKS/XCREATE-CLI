@@ -14,11 +14,11 @@ X-CREATE need the access to a DB hosted on an instance of mySQL. Configure its a
  * [xcreate.properties](src/main/resources/xcreate.properties)
  
 ## RUN IT
-1. Load a set of given XACML policies in the DB on mySQL
+1. Add a set of given XACML policies in the DB on mySQL
      * the CLI will look for XML files in the folder specified as its only mandatory argument
-     * the CLI will process all the files trying to load all the XACML policies. If a XACML policies is already present in the DB, it will be skipped.
+     * the CLI will process all the files trying to add all the XACML policies. If a XACML policies is already present in the DB, it will be skipped.
      * the generation of random values is always enabled by the CLI
-     * loading is performed by means of the profile ``addPolicies`` in the [POM](pom.xml). Use the following command: ``mvn clean compile -P addPolicies exec:java -Dexec.args="/tmp/xacmlPolicies"``
+     * adding is performed by means of the profile ``addPolicies`` in the [POM](pom.xml). Use the following command: ``mvn clean compile -P addPolicies exec:java -Dexec.args="/tmp/xacmlPolicies"``
 1. Generate the XACML reuqest for a given set of XACML policies already loaded in the DB
      * the CLI will look for XML files in the folder specified as its only mandatory argument
      * the CLI will process all the files in the given directory. If a XACML policies is not present in the DB, it will be skipped.
