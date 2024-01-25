@@ -57,26 +57,7 @@ public class AddPolicies extends AbstractCLI{
 	public void addPolicies() throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
 		File[] fileList = new File(this.xacmlPoliciesDirname).listFiles(); 
 		for (File policyToAdd : fileList) {
-			this.addPolicy(policyToAdd);
-			
-//		    Foo f = new Foo();
-////		    Foo f = Mockito.mock(Foo.class);
-//		    f.showValues();
-//		    System.err.println("the values are: " +f.getInt() + ", " + f.getString());
-////			Method method_updateValues = f.getClass().getDeclaredMethod("updateValues", Object.class, int.class, String.class);
-//			Method method_updateValues = f.getClass().getDeclaredMethod("addPolicyButtonActionPerformed", ActionEvent.class);
-//			method_updateValues.setAccessible(true);
-//			Object dummySource = new Object(); 
-////			int value = (int) method_updateValues.invoke(f, dummySource, 1978, "test");
-//			method_updateValues.invoke(f, new ActionEvent(new Object(), ActionEvent.ACTION_LAST-1, "command"));
-//		    System.err.println("the values are: " +f.getInt() + ", " + f.getString());
-//		    f.showValues();
-
-//			Method method_addPolicyButtonActionPerformed = cli.mock_XCreateMain.getClass().getDeclaredMethod("addPolicyButtonActionPerformed", ActionEvent.class);
-//			method_addPolicyButtonActionPerformed.setAccessible(true);
-//			Object dummySource = new Object(); 
-//			ActionEvent dummyEvent = new ActionEvent(dummySource, ActionEvent.ACTION_LAST-1, "command");
-//			method_addPolicyButtonActionPerformed.invoke(cli.mock_XCreateMain, dummyEvent);
+			this.addPolicy(policyToAdd);			
 		}
 		
 	}
