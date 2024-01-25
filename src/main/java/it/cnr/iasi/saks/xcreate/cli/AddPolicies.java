@@ -1,3 +1,20 @@
+/* 
+ * This file is part of the XCREATE-CLI project.
+ * 
+ * XCREATE-CLI is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * XCREATE-CLI is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with XCREATE-CLI.  If not, see <https://www.gnu.org/licenses/>
+ *
+ */
 package it.cnr.iasi.saks.xcreate.cli;
 
 import java.awt.event.ActionEvent;
@@ -40,26 +57,7 @@ public class AddPolicies extends AbstractCLI{
 	public void addPolicies() throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
 		File[] fileList = new File(this.xacmlPoliciesDirname).listFiles(); 
 		for (File policyToAdd : fileList) {
-			this.addPolicy(policyToAdd);
-			
-//		    Foo f = new Foo();
-////		    Foo f = Mockito.mock(Foo.class);
-//		    f.showValues();
-//		    System.err.println("the values are: " +f.getInt() + ", " + f.getString());
-////			Method method_updateValues = f.getClass().getDeclaredMethod("updateValues", Object.class, int.class, String.class);
-//			Method method_updateValues = f.getClass().getDeclaredMethod("addPolicyButtonActionPerformed", ActionEvent.class);
-//			method_updateValues.setAccessible(true);
-//			Object dummySource = new Object(); 
-////			int value = (int) method_updateValues.invoke(f, dummySource, 1978, "test");
-//			method_updateValues.invoke(f, new ActionEvent(new Object(), ActionEvent.ACTION_LAST-1, "command"));
-//		    System.err.println("the values are: " +f.getInt() + ", " + f.getString());
-//		    f.showValues();
-
-//			Method method_addPolicyButtonActionPerformed = cli.mock_XCreateMain.getClass().getDeclaredMethod("addPolicyButtonActionPerformed", ActionEvent.class);
-//			method_addPolicyButtonActionPerformed.setAccessible(true);
-//			Object dummySource = new Object(); 
-//			ActionEvent dummyEvent = new ActionEvent(dummySource, ActionEvent.ACTION_LAST-1, "command");
-//			method_addPolicyButtonActionPerformed.invoke(cli.mock_XCreateMain, dummyEvent);
+			this.addPolicy(policyToAdd);			
 		}
 		
 	}
